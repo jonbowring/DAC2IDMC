@@ -1,0 +1,2 @@
+"plan_wid","plan_name","plan_inactive_flag","plan_step_wid","plan_step_order","plan_step_type","step_guid","step_wid","step_cmd","step_name","infa_id","infa_path"
+"201C9CC7C59D167A79A2E247C6189A67","Echo Employee Snapshot Oracle R12.1.3","N","FB94D4D373A1D3CA21DF824CCF1399C","7","CREATE_QUERY_INDEXES","","B98CE2F63BF4286ED30AB9FEC9C686","QUERY_INDEX_CREATION","QUERY_INDEX_CREATION","",""

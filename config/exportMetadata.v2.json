@@ -1,0 +1,78 @@
+{
+  "name": "tf_Example-1701471595480",
+  "sourceOrgId": "2lh8CM1r57OkWgGofQVMIk",
+  "sourceOrgName": "Jon Bowring Suborg",
+  "exportedObjects": [
+    {
+      "objectGuid": "aJDWwb7VFSmbzZ86glzi20",
+      "objectName": "tf_Example",
+      "objectType": "TASKFLOW",
+      "path": "/Explore/Default",
+      "metadata": {
+        "modelVersion": {
+          "major": 1,
+          "minor": 0
+        },
+        "repoInfo": {
+          "repoHandle": "3RKWa-gt-522578-2023-12-01T22:58:53.881Z::tf.xml"
+        },
+        "objectRefs": [
+          "1jY0fuy0iEUhkrHVLx78WK"
+        ],
+        "contextAttributes": null,
+        "additionalInfo": {
+          "description": "",
+          "contentType": "application/json; charset=utf-8",
+          "documentState": "VALID"
+        }
+      }
+    },
+    {
+      "objectGuid": "92TQndHw9hvjJrQafpLX2R",
+      "objectName": "Default",
+      "objectType": "Project",
+      "path": "/Explore",
+      "metadata": {
+        "modelVersion": {
+          "major": 0,
+          "minor": 0
+        },
+        "repoInfo": null,
+        "objectRefs": [],
+        "contextAttributes": [
+          {
+            "name": "IS_DEF_LOC",
+            "value": "true"
+          }
+        ],
+        "additionalInfo": {
+          "description": "Auto-generated Default Project",
+          "contentType": null,
+          "documentState": "COMPLETE"
+        }
+      }
+    },
+    {
+      "objectGuid": "1jY0fuy0iEUhkrHVLx78WK",
+      "objectName": "mt_Example",
+      "objectType": "MTT",
+      "path": "/Explore/Default",
+      "metadata": {
+        "modelVersion": {
+          "major": 0,
+          "minor": 0
+        },
+        "repoInfo": {
+          "repoHandle": "010SU10Z00000000001H"
+        },
+        "objectRefs": [],
+        "contextAttributes": null,
+        "additionalInfo": {
+          "description": "",
+          "contentType": "JSON",
+          "documentState": "VALID"
+        }
+      }
+    }
+  ]
+}

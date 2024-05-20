@@ -1,0 +1,6 @@
+#USE_SECTIONS
+[Default].[Echo_Employee_Snapshot_Oracle_R12_1_3]
+$$LAST_ARCHIVE_DATE=2021-08-01
+$$TYPE2_FLG=Y
+
+[Global]

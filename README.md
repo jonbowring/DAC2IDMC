@@ -1,2 +1,1 @@
-# DAC2IDMC
-Oracle DAC to Informatica Cloud Migration Utility
+# idmc-dac-factory

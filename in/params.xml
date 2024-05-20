@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <name>$$LAST_ARCHIVE_DATE</name>
+    <value>2021-08-01</value>
+    <type_cd>Informatica parameters</type_cd>
+    <step_wid>B98CE2F63BF4286ED30AB9FEC9C686</step_wid>
+    <datatype>Text</datatype>
+    <context_type>Both</context_type>
+    <inactive_flag>N</inactive_flag>
+    <comments/>
+    <version_id>1</version_id>
+  </row>
+  <row>
+    <name>$$TYPE2_FLG</name>
+    <value>Y</value>
+    <type_cd>Informatica parameters</type_cd>
+    <step_wid>B98CE2F63BF4286ED30AB9FEC9C686</step_wid>
+    <datatype>Text</datatype>
+    <context_type>Both</context_type>
+    <inactive_flag>N</inactive_flag>
+    <comments/>
+    <version_id>1</version_id>
+  </row>
+</data>
