@@ -1,0 +1,8 @@
+{
+    "idmc": {
+        "host": "dmp-us.informaticacloud.com",
+        "pod": "usw1",
+        "user": "<username>",
+        "password": "<password>"
+    }
+}
