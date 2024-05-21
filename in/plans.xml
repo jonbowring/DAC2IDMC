@@ -13,6 +13,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_2</step_name>
     <infa_id>a0Ks8uNXYKLg38LRNzw6gv</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_2</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -27,6 +32,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_3</step_name>
     <infa_id>8gORkCCxfM8hk1VxABRRqd</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_3</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -41,6 +51,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_4</step_name>
     <infa_id>6vPlMGJ7sw6juVvUtKpxYq</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_4</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -55,6 +70,11 @@
     <step_name>TASK_GROUP_Extract_EmployeeDailySnapshotFact_Performance_Review</step_name>
     <infa_id>7PjDO1zxryekytQ7Oh1zEP</infa_id>
     <infa_path>Default/TASK_GROUP_Extract_EmployeeDailySnapshotFact_Performance_Review</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -69,6 +89,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_1</step_name>
     <infa_id>aeOQ6VugmCxipbYyKlDRUr</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_1</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -83,6 +108,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_PerformanceReview</step_name>
     <infa_id>bspgWgKqNAAkdFCD8X1EGw</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_PerformanceReview</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -97,6 +127,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact_1_Update</step_name>
     <infa_id>980nZ1ZyECqlJELIoT6seu</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact_1_Update</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -111,6 +146,11 @@
     <step_name>SDE_ORA_EmployeeDailySnapshotFact</step_name>
     <infa_id>48EkOr6iGA3jPFoSNlYhmt</infa_id>
     <infa_path>Default/SDE_ORA_EmployeeDailySnapshotFact</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -125,6 +165,11 @@
     <step_name>SIL_EmployeeDailySnapshotFact</step_name>
     <infa_id>hrqZyoLnJWAbb4e5QoamgT</infa_id>
     <infa_path>Default/SIL_EmployeeDailySnapshotFact</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -139,6 +184,11 @@
     <step_name>PLP_EmployeeDailySnapshot_Trim</step_name>
     <infa_id>bacDD1nRpeZcyoy0ts7ZqA</infa_id>
     <infa_path>Default/PLP_EmployeeDailySnapshot_Trim</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -153,6 +203,11 @@
     <step_name>PLP_EmployeeMonthlySnapshot</step_name>
     <infa_id>0DdyYEpJbWNbQ0MHY0se20</infa_id>
     <infa_path>Default/PLP_EmployeeMonthlySnapshot</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
   <row>
     <plan_wid>201C9CC7C59D167A79A2E247C6189A67</plan_wid>
@@ -167,5 +222,10 @@
     <step_name>QUERY_INDEX_CREATION</step_name>
     <infa_id>4fsAJCqxPFxet2Pyr5c8WV</infa_id>
     <infa_path>Default/QUERY_INDEX_CREATION</infa_path>
+    <agent_id>010SU125000000000002</agent_id>
+    <agent_guid>cPbb2XLzpoweqfBP9W6kOJ</agent_guid>
+    <agent_name>AUW487V7S3-AAD</agent_name>
+    <script_dir>C:\Informatica\scripts</script_dir>
+    <script_args/>
   </row>
 </data>
