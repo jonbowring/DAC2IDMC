@@ -44,12 +44,22 @@ let $tflow := <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.co
             
             <tempFields>
                {
-                  for $step in $steps
+                  for $step in $steps[Q{}plan_step_type = 'REGULAR']
                     return <field description="" name="{data($step/Q{}step_name)}" type="reference">
                       <options>
                         <option name="failOnNotRun">false</option>
                         <option name="failOnFault">false</option>
                         <option name="referenceTo">$po:{replace($step/Q{}step_name, '[^A-Za-z0-9\-]+', '-')}</option>
+                      </options>
+                  </field>
+                }
+                {
+                  for $step in $steps[Q{}plan_step_type = 'CREATE_QUERY_INDEXES']
+                    return <field description="" name="{data($step/Q{}step_name)}" type="reference">
+                      <options>
+                        <option name="failOnNotRun">false</option>
+                        <option name="failOnFault">false</option>
+                        <option name="referenceTo">$po:INFA-commandTask</option>
                       </options>
                   </field>
                 }

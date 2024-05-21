@@ -46,7 +46,7 @@ declare function jb:addDependency($task as node()*) as node()* {
 declare function jb:addContainer($seq as xs:integer, $nextID as xs:string, $task as node()*, $params as node()*) as node()* {
   let $container := <eventContainer xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd" id="step{$seq}">
     {
-        jb:addMappingTask($task, $params)
+        if( $task/Q{}plan_step_type = 'REGULAR' ) then ( jb:addMappingTask($task, $params) ) else ( jb:addCommand($task) )
     }
     <link id="step{$seq}Link" targetId="{$nextID}"/>
     <events>
@@ -103,6 +103,43 @@ declare function jb:addMappingTask($task as node()*, $params as node()*) as node
                     return <operation source="field" to="temp.{$task/Q{}step_name/text()}/inout/{$name}">{$name}</operation>
             }
       </serviceOutput>
+    </service>
+
+  return $service
+};
+
+declare function jb:addCommand($task as node()*) as node()* {
+  let $service := <service xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd" id="service{$task/Q{}plan_step_wid}">
+      <title>{$task/Q{}step_name/text()}</title>
+            <serviceName>ICSExecuteCommandTask</serviceName>
+            <serviceGUID/>
+            <serviceInput>
+            <parameter name="Task Name" source="constant">{$task/Q{}step_name/text()}</parameter>
+            <parameter name="Wait for Task to Complete" source="constant">true</parameter>
+            <parameter name="Runtime Environment" source="constant">{$task/Q{}agent_id/text()}:{$task/Q{}agent_name/text()}</parameter>
+            <parameter name="Max Wait" source="constant">86400</parameter>
+            <parameter name="Script Name" source="constant"/>
+            <parameter name="Input Arguments" source="constant"/>
+            <parameter name="Work Directory" source="constant"/>
+            <parameter name="RuntimeEnvGUID" source="constant">{$task/Q{}agent_guid/text()}</parameter>
+            <parameter name="FailTaskIfAnyScriptFails" source="constant">true</parameter>
+            <parameter name="taskField" source="nested">
+                <operation source="field" to="INFA-commandTask">temp.{$task/Q{}step_name/text()}</operation>
+                <operation source="constant" to="INFA-commandTask/input[1]/script-1/name">Script1</operation>
+                <operation source="constant" to="INFA-commandTask/input[1]/script-1/scriptName">{$task/Q{}script_dir/text()}\{ replace( $task/Q{}step_name/text(), '\W+', '_' ) }.bat</operation>
+                <operation source="constant"
+                            to="INFA-commandTask/input[1]/script-1/inputArguments">{$task/Q{}script_args/text()}</operation>
+                <operation source="constant" to="INFA-commandTask/input[1]/script-1/workDir">{$task/Q{}script_dir/text()}</operation>
+            </parameter>
+            </serviceInput>
+            <serviceOutput>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/Run_Id">Run Id</operation>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/Start_Time">Start Time</operation>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/End_Time">End Time</operation>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/Exit_Code">Exit Code</operation>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/Execution_Status">Execution Status</operation>
+            <operation source="field" to="temp.{$task/Q{}step_name/text()}/output/Std_Error">Std Error</operation>
+            </serviceOutput>
     </service>
 
   return $service
